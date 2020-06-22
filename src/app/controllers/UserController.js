@@ -18,6 +18,9 @@ class UserController {
   }
 
   async update(req, res) {
+    // eslint-disable-next-line no-console
+    console.log(req.userId);
+
     return res.json({ ok: true });
   }
 }
