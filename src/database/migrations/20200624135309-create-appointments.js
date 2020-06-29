@@ -8,8 +8,8 @@ module.exports = {
         primaryKey: true,
       },
       date: {
-        allowNull: false,
         type: Sequelize.DATE,
+        allowNull: true,
       },
       user_id: {
         type: Sequelize.INTEGER,
